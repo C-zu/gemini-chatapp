@@ -34,7 +34,7 @@ A sophisticated **multi-modal chat application** built with **Streamlit** and **
 
 #### 1️⃣ Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/C-zu/gemini-chatapp.git
 cd Chatbot
 ```
 
@@ -61,6 +61,8 @@ pip install fastapi langchain google-generativeai plotly langchain_google_genai 
 Create a `.env` file in the project root and add your Gemini API key:
 ```bash
 GOOGLE_API_KEY=your_gemini_api_key_here
+SUPABASE_URL=your_supabase_url_here
+SUPABASE_KEY=your_supabase_key_here
 ```
 
 ## ▶️ Running the Application
@@ -162,7 +164,7 @@ Chatbot/
 - **Backend**: FastAPI, Uvicorn
 - **AI/ML**: Google Gemini API, LangChain
 - **Data Processing**: Pandas, Plotly
-- **Database**: Supabase (optional)
+- **Database**: Supabase
 
 ## 🔧 Configuration
 
