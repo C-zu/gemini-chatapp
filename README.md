@@ -139,7 +139,7 @@ Chatbot/
 
 ### Frontend (Streamlit)
 - **UI Rendering**: Clean, responsive interface with mode switching
-- **File Handling**: Secure upload and processing of images and CSV files
+- **File Handling**: Upload and processing of images and CSV files
 - **Session Management**: Persistent chat sessions with history
 - **Real-time Communication**: Streaming responses from backend
 
@@ -166,9 +166,9 @@ Chatbot/
 ## 🔧 Configuration
 
 ### Environment Variables
-- `GOOGLE_API_KEY`: Your Google Gemini API key (required)
-- `SUPABASE_URL`: Supabase project URL (optional)
-- `SUPABASE_KEY`: Supabase API key (optional)
+- `GOOGLE_API_KEY`: Your Google Gemini API key
+- `SUPABASE_URL`: Supabase project URL
+- `SUPABASE_KEY`: Supabase API key
 
 ### Model Configuration
 The application uses `gemini-2.5-flash` by default. You can modify the model in `backend/services/ai_service.py`:
