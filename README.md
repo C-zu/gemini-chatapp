@@ -55,7 +55,7 @@ pip install -r requirements.txt
 ```
 or
 ```bash
-pip install fastapi langchain google-generativeai plotly langchain_google_genai streamlit dotenv supabase langchain_experimental uvicorn
+pip install fastapi langchain google-generativeai plotly langchain_google_genai streamlit dotenv supabase langchain_experimental uvicorn tabulate
 ```
 #### 4️⃣ Set up environment variables
 Create a `.env` file in the project root and add your Gemini API key:
@@ -176,3 +176,5 @@ The application uses `gemini-2.5-flash` by default. You can modify the model in 
 ```python
 def __init__(self, model_name="gemini-2.5-flash", temperature=0.3):
 ```
+### Demo video link:
+https://www.youtube.com/watch?v=ZVQd3i5MBRI
