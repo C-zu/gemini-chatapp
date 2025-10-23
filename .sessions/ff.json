@@ -1,0 +1,21 @@
+{
+  "name": "ff",
+  "created_at": "2025-10-20T15:18:22.212929Z",
+  "meta": {
+    "created_at": "2025-10-20T15:18:22.212929Z",
+    "has_df": false,
+    "has_image": false
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "chào bạn",
+      "ts": null
+    },
+    {
+      "role": "assistant",
+      "content": "Chào bạn! Tôi có thể giúp gì cho bạn?",
+      "ts": null
+    }
+  ]
+}
