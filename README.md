@@ -28,6 +28,7 @@ A sophisticated **multi-modal chat application** built with **Streamlit** and **
 ### 📋 Prerequisites
 - Python **3.9.8**
 - A valid **Google Gemini API key** ([Get one here](https://makersuite.google.com/app/apikey))
+- Supabase to store chat histories.
 
 ### ⚙️ Installation
 
