@@ -52,7 +52,10 @@ source .venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
+or
+```bash
+pip install fastapi langchain google-generativeai plotly langchain_google_genai streamlit dotenv supabase langchain_experimental uvicorn
+```
 #### 4️⃣ Set up environment variables
 Create a `.env` file in the project root and add your Gemini API key:
 ```bash
@@ -91,12 +94,12 @@ Chatbot/
 │   │   └── sidebar.py          # Sidebar navigation component
 │   ├── services/
 │   │   └── api_client.py       # FastAPI backend communication
-│   ├── utils/
-│   │   ├── session_manager.py  # Chat session handling
-│   │   ├── database_setup.py   # Database initialization
-│   │   └── helpers.py          # Utility functions
-│   └── model/
-│       └── chat_model.py       # Chat data models
+│   └── utils/
+│       ├── session_manager.py  # Chat session handling
+│       ├── database_setup.py   # Database initialization
+│       └── helpers.py          # Utility functions
+│   
+│   
 │
 ├── backend/                     # FastAPI backend application
 │   ├── main.py                 # FastAPI app entry point
@@ -105,7 +108,6 @@ Chatbot/
 │   │   ├── chat.py             # Chat management endpoints
 │   │   └── sessions.py         # Session management endpoints
 │   ├── services/
-│   │   ├── ai_service.py       # Gemini AI integration service
 │   │   ├── chat_service.py     # Chat business logic
 │   │   ├── chat_repository.py  # Chat data persistence
 │   │   └── session_service.py  # Session management logic
