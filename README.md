@@ -178,5 +178,3 @@ The application uses `gemini-2.5-flash` by default. You can modify the model in 
 ```python
 def __init__(self, model_name="gemini-2.5-flash", temperature=0.3):
 ```
-### Demo video link:
-https://www.youtube.com/watch?v=ZVQd3i5MBRI
